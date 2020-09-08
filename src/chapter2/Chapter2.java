@@ -15,16 +15,16 @@ public class Chapter2 {
 
 		List<User> users = Arrays.asList(user1, user2, user3);
 
-		System.out.println("method 1");
+		System.out.println("method 1 - conventional loop");
 		for (User user : users) {
 			System.out.println(user.getName());
 		}
 		//
-		System.out.println("method 2");
+		System.out.println("method 2 - new instance of UserConsumer class which implements Consumer interface");
 		UserConsumer userConsumer = new UserConsumer();
 		users.forEach(userConsumer);
 		//
-		System.out.println("method 3");
+		System.out.println("method 3 - anonymous class which implements Consumer interface");
 		users.forEach(new Consumer<User>() {
 
 			@Override
@@ -33,7 +33,7 @@ public class Chapter2 {
 			}
 		});
 		//
-		System.out.println("method 4");
+		System.out.println("method 4 - lambda expression");
 		users.forEach(u -> System.out.println(u.getName()));
 	}
 }

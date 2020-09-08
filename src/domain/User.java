@@ -6,6 +6,12 @@ public class User {
 	private int score;
 	private boolean mediator;
 	
+	public User() {}
+	
+	public User(String name) {
+		this.name = name;
+	}
+	
 	public User(String name, int score) {
 		this.name = name;
 		this.score = score;
@@ -27,5 +33,10 @@ public class User {
 	public boolean isMediator() {
 		return mediator;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "User [name=" + name + "]";
+	}
+
 }
