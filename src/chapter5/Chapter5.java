@@ -47,7 +47,7 @@ public class Chapter5 {
 		users.forEach(u -> System.out.println(u.getName()));
 		//
 		System.out.println("method 6 - lambda expression using Comparator.comparingInt to compare Integer");
-		users.sort(Comparator.comparingInt(u -> u.getScore()));
+		users.sort(Comparator.comparingInt(u -> u.getScores()));
 		users.forEach(u -> System.out.println(u.getName()));
 	}
 }

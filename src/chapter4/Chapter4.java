@@ -28,7 +28,7 @@ public class Chapter4 {
 		usersMutableList.add(user2);
 		usersMutableList.add(user3);
 		
-		usersMutableList.removeIf(u -> u.getScore() > 160);
+		usersMutableList.removeIf(u -> u.getScores() > 160);
 		usersMutableList.forEach(u -> System.out.println(u.getName()));
 	}
 }

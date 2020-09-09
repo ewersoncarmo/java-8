@@ -26,7 +26,7 @@ public class Chapter6 {
 		users.forEach(User::becomeMediator);
 		//
 		System.out.println("method 3 - comparing using method reference");
-		users.sort(Comparator.comparingInt(User::getScore).thenComparing(User::getName));
+		users.sort(Comparator.comparingInt(User::getScores).thenComparing(User::getName));
 		users.forEach(System.out::println);
 		// examples using method reference and lambda expression
 		// both are the same

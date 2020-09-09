@@ -3,7 +3,7 @@ package domain;
 public class User {
 
 	private String name;
-	private int score;
+	private int scores;
 	private boolean mediator;
 	
 	public User() {}
@@ -12,9 +12,9 @@ public class User {
 		this.name = name;
 	}
 	
-	public User(String name, int score) {
+	public User(String name, int scores) {
 		this.name = name;
-		this.score = score;
+		this.scores = scores;
 		this.mediator = false;
 	}
 
@@ -22,8 +22,8 @@ public class User {
 		return name;
 	}
 
-	public int getScore() {
-		return score;
+	public int getScores() {
+		return scores;
 	}
 
 	public void becomeMediator() {
