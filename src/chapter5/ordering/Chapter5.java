@@ -1,4 +1,4 @@
-package chapter5;
+package chapter5.ordering;
 
 import java.util.Arrays;
 import java.util.Collections;

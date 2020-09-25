@@ -1,4 +1,4 @@
-package chapter4;
+package chapter4.defaultmethods;
 
 import java.util.ArrayList;
 import java.util.Arrays;

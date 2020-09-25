@@ -1,4 +1,4 @@
-package chapter6;
+package chapter6.methodreferences;
 
 import java.util.Arrays;
 import java.util.Comparator;

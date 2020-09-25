@@ -1,4 +1,4 @@
-package chapter3;
+package chapter3.functionalinterfaces;
 
 @FunctionalInterface
 public interface Validator<T> {

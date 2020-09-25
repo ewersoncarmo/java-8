@@ -1,4 +1,4 @@
-package chapter7;
+package chapter7.streamscollectors;
 
 import java.util.ArrayList;
 import java.util.Arrays;

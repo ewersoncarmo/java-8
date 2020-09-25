@@ -1,4 +1,4 @@
-package chapter8;
+package chapter8.streamsoperations;
 
 import java.util.function.IntSupplier;
 

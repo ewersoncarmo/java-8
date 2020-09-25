@@ -17,6 +17,12 @@ public class User {
 		this.scores = scores;
 		this.mediator = false;
 	}
+	
+	public User(String name, int scores, boolean mediator) {
+		this.name = name;
+		this.scores = scores;
+		this.mediator = mediator;
+	}
 
 	public String getName() {
 		return name;

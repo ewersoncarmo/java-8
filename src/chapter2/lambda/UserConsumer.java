@@ -1,4 +1,4 @@
-package chapter2;
+package chapter2.lambda;
 
 import java.util.function.Consumer;
 
